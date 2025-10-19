@@ -1,0 +1,110 @@
+{
+  "Zn": {
+    "hammer": "Sample flattens, bends slightly",
+    "conductivity": "Red and green lights shine brightly",
+    "water": "Sample sinks and remains unchanged visually",
+    "crucible": "Sample melts in 30 seconds",
+    "acid": "Bubbles form and a colorless solution appears",
+    "flame": "Pale green / bluish-green flame",
+    "activity": {
+      "AgNO3": "black",
+      "Al(NO3)3": "no change",
+      "Ca(NO3)2": "no change",
+      "Fe(NO3)2": "orange",
+      "KNO3": "no change",
+      "SnCl2 in HCl": "bubbles",
+      "Zn(NO3)2": "black",
+      "Cu(NO3)2": "no change"
+    }
+  },
+  "Al": {
+    "hammer": "Sample flattens, bends slightly",
+    "conductivity": "Red and green lights shine brightly",
+    "water": "Sample sinks and remains unchanged visually",
+    "crucible": "Sample melts in 5 minutes",
+    "acid": "No reaction for 10 minutes",
+    "flame": "Regular flame color (no distinct hue)",
+    "activity": {
+      "AgNO3": "no change",
+      "Al(NO3)3": "no change",
+      "Ca(NO3)2": "no change",
+      "Fe(NO3)2": "no change",
+      "KNO3": "no change",
+      "SnCl2 in HCl": "bubbles",
+      "Zn(NO3)2": "no change",
+      "Cu(NO3)2": "no change"
+    }
+  },
+  "Cu": {
+    "hammer": "Sample flattens, bends slightly",
+    "conductivity": "Red and green lights shine brightly",
+    "water": "Sample sinks and remains unchanged visually",
+    "crucible": "Sample melts in 5 minutes",
+    "acid": "No reaction for 10 minutes",
+    "flame": "Blue-green",
+    "activity": {
+      "AgNO3": "no change",
+      "Al(NO3)3": "no change",
+      "Ca(NO3)2": "no change",
+      "Fe(NO3)2": "no change",
+      "KNO3": "no change",
+      "SnCl2 in HCl": "no change",
+      "Zn(NO3)2": "no change",
+      "Cu(NO3)2": "no change"
+    }
+  },
+  "Mg": {
+    "hammer": "Sample flattens, bends slightly",
+    "conductivity": "Red and green lights shine brightly",
+    "water": "Sample sinks and remains unchanged visually",
+    "crucible": "Sample melts in 5 minutes",
+    "acid": "Bubbles form vigorously, colorless solution",
+    "flame": "Very blinding white light, white powder formed after",
+    "activity": {
+      "AgNO3": "black",
+      "Al(NO3)3": "bubbling",
+      "Ca(NO3)2": "no change",
+      "Fe(NO3)2": "bubbling",
+      "KNO3": "no change",
+      "SnCl2 in HCl": "bubbling",
+      "Zn(NO3)2": "no change",
+      "Cu(NO3)2": "black"
+    }
+  },
+  "Fe": {
+    "hammer": "Sample flattens, bends slightly",
+    "conductivity": "Red and green lights shine brightly",
+    "water": "Sample sinks and remains unchanged visually",
+    "crucible": "Sample melts in 5 minutes",
+    "acid": "Bubbles form vigorously, colorless solution",
+    "flame": "Red",
+    "activity": {
+      "AgNO3": "no change",
+      "Al(NO3)3": "no change",
+      "Ca(NO3)2": "no change",
+      "Fe(NO3)2": "no change",
+      "KNO3": "no change",
+      "SnCl2 in HCl": "no change",
+      "Zn(NO3)2": "no change",
+      "Cu(NO3)2": "no change"
+    }
+  },
+  "Ni": {
+    "hammer": "Sample flattens, bends slightly",
+    "conductivity": "Red and green lights shine brightly",
+    "water": "Sample sinks and remains unchanged visually",
+    "crucible": "Sample melts in 5 minutes",
+    "acid": "No reaction for 10 minutes",
+    "flame": "Greenish-blue",
+    "activity": {
+      "AgNO3": "no change",
+      "Al(NO3)3": "no change",
+      "Ca(NO3)2": "no change",
+      "Fe(NO3)2": "no change",
+      "KNO3": "no change",
+      "SnCl2 in HCl": "no change",
+      "Zn(NO3)2": "no change",
+      "Cu(NO3)2": "no change"
+    }
+  }
+}

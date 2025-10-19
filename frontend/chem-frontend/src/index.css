@@ -1,0 +1,61 @@
+body { background:#f6f7fb; font-family:sans-serif; text-align:center; margin:0; padding:40px; }
+.page { display:flex; justify-content:center; align-items:center; min-height:100vh; }
+.card { background:#fff; border-radius:16px; padding:24px; box-shadow:0 6px 12px rgba(0,0,0,.1); width:400px; }
+.stack { display:grid; gap:12px; }
+.trial-list { margin-top:16px; }
+input { padding:10px; border:1px solid #ddd; border-radius:8px; width:100%; }
+button { padding:10px 14px; border:none; border-radius:8px; background:#333; color:#fff; cursor:pointer; }
+button:hover { background:#555; }
+.trial-btn { width:100%; background:#eee; color:#000; }
+.trial-btn.used { opacity:.6; }
+.modal { position:fixed; inset:0; background:rgba(0,0,0,.4); display:flex; justify-content:center; align-items:center; }
+.modal-card { background:#fff; border-radius:12px; padding:20px; width:500px; max-height:80vh; overflow:auto; }
+.grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+.reagent { border:1px solid #ccc; border-radius:8px; padding:10px; cursor:pointer; }
+.reagent.used { opacity:.7; }
+.reagent-title { font-weight:bold; }
+.muted { color:#888; font-size:14px; }
+
+/* --- Teacher Tools floating button --- */
+.teacher-fab {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  padding: 12px 14px;
+  border-radius: 999px;
+  background: #111827;
+  color: #fff;
+  border: none;
+  box-shadow: 0 6px 12px rgba(0,0,0,.2);
+  cursor: pointer;
+  z-index: 50;
+}
+.teacher-fab:hover { background: #1f2937; }
+
+.modal { position: fixed; inset: 0; background: rgba(0,0,0,.35); display: flex; align-items: center; justify-content: center; padding: 20px; }
+.modal-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 16px; max-width: 720px; width: 100%; padding: 16px; }
+.modal-head { display: flex; align-items: center; justify-content: space-between; }
+.modal-body { margin-top: 8px; }
+
+.modal input[type="password"], .modal input[type="text"] {
+  width: 100%; padding: 10px 12px; border: 1px solid #ddd; border-radius: 10px; margin: 6px 0 10px 0;
+}
+.modal .row { display: flex; gap: 10px; justify-content: flex-end; margin-top: 10px; }
+
+/* About button */
+.about-btn {
+  position: fixed;
+  top: 18px;
+  right: 18px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: #111827;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 60;
+}
+.about-btn:hover {
+  background: #1f2937;
+}
