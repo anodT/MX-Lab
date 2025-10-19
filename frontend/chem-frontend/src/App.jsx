@@ -276,7 +276,7 @@ export default function App() {
         </div>
 
         <div className="submit-row">
-          <input placeholder="Predicted Metal? (Zn, Al, Cu, Mg, Fe, Ni)" onChange={(e) => setGuess(e.target.value)} />
+          <input placeholder="Predicted Metal? (Only write symbol e.g: Au)" onChange={(e) => setGuess(e.target.value)} />
           <button className="primary" onClick={handleSubmitGuess}>Submit</button>
         </div>
       </div>
@@ -371,9 +371,12 @@ export default function App() {
               <p>Just a small group of TAs trying to make life easier for Dr. Mellows.</p>
               <h3>What is this website?</h3>
               <p>This is Henry M. Gunn High School's official Mellows Chem H MX Lab assessment website.</p>
-              <h3>Our Team:</h3>
+              <h3>Creator:</h3>
               <ul style={{ listStyle: "none", paddingLeft: 0 }}>
                 <li>Andersen Tanriverdi (<a href="mailto:andersentanriverdi@gmail.com">andersentanriverdi@gmail.com</a>)</li>
+              </ul>
+              <h3>Special Thanks:</h3>
+              <ul style={{ listStyle: "none", paddingLeft: 0 }}>
                 <li>Nate Yoon</li>
                 <li>Doyoon Kim</li>
                 <li>Xiwen Liang</li>
