@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./index.css";
 
 export default function App() {
-  const API_BASE = "http://127.0.0.1:5001";
+  const API_BASE = import.meta.env.VITE_API_BASE || "http://127.0.0.1:5001";
 
   // -------- student flow --------
   const [view, setView] = useState("login");
