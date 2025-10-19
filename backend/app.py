@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 APP_PASSWORD = os.getenv("APP_PASSWORD", "Chem123")
-ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", APP_PASSWORD)
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "TeacherPass")
 
 
 BASE_DIR = Path(__file__).parent
