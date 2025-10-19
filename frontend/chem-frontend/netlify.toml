@@ -1,0 +1,15 @@
+[build]
+  base    = "frontend/chem-frontend"
+  publish = "dist"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+  # Your Render backend URL:
+  VITE_API_BASE = "https://mx-lab-backend.onrender.com"
+
+# Single-page app routing (prevents white page on refresh)
+[[redirects]]
+  from = "/*"
+  to   = "/index.html"
+  status = 200
