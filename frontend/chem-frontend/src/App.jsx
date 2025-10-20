@@ -242,13 +242,16 @@ export default function App() {
                 <p>Just a small group of TAs trying to make life easier for Dr. Mellows.</p>
                 <h3>What is this website?</h3>
                 <p>This is Henry M. Gunn High School's official Mellows Chem H MX Lab assessment website.</p>
-                <h3>Our Team:</h3>
+                <h3>Creator:</h3>
                 <ul style={{ listStyle: "none", paddingLeft: 0 }}>
                   <li>Andersen Tanriverdi (<a href="mailto:andersentanriverdi@gmail.com">andersentanriverdi@gmail.com</a>)</li>
+                </ul>
+                <h3>Special Thanks:</h3>
+                <ul style={{ listStyle: "none", paddingLeft: 0 }}>
                   <li>Nate Yoon</li>
                   <li>Doyoon Kim</li>
                   <li>Xiwen Liang</li>
-                  <li>Madeleine Kang</li>
+                  <li>Madeleine</li>
                   <li>Frank Zhang</li>
                 </ul>
               </div>
