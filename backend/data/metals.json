@@ -107,4 +107,22 @@
       "Cu(NO3)2": "no change"
     }
   }
+    "I": {
+    "hammer": "Sample shatters into small pieces",
+    "conductivity": "Lights are not on",
+    "water": "Sample sinks and remains unchanged visually",
+    "crucible": "Sample melts in 5 minutes",
+    "acid": "No reaction for 10 minutes",
+    "flame": "Greenish-blue",
+    "activity": {
+      "AgNO3": "no change",
+      "Al(NO3)3": "no change",
+      "Ca(NO3)2": "no change",
+      "Fe(NO3)2": "no change",
+      "KNO3": "no change",
+      "SnCl2 in HCl": "no change",
+      "Zn(NO3)2": "no change",
+      "Cu(NO3)2": "no change"
+    }
+  }
 }
