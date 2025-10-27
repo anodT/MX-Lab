@@ -383,7 +383,7 @@ export default function App() {
                 <li>Nate Yoon</li>
                 <li>Doyoon Kim</li>
                 <li>Xiwen Liang</li>
-                <li>Madeleine</li>
+                <li>Madeleine Kang</li>
                 <li>Frank Zhang</li>
               </ul>
             </div>
